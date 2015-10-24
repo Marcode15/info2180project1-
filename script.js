@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-=======
-//Address book begins here
 
->>>>>>> c5fd23caae098ecc6191a03fca97c2d24306f975
 var bob = {
 firstName: "Bob",
 lastName: "Jones",
@@ -17,7 +13,7 @@ phoneNumber: "(650) 888-8888",
 email: "mary.johnson@example.com"
 };
 
-<<<<<<< HEAD
+
 var contacts = [bob,mary];
 
 
@@ -26,8 +22,7 @@ function printPerson(person){
     
 }
 
-=======
->>>>>>> c5fd23caae098ecc6191a03fca97c2d24306f975
+
 function list() {
 var contactsLength = contacts.length;
 for (var i = 0; i < contactsLength; i++) {
@@ -54,10 +49,8 @@ email: email
 };
 add("Mark", "Ford", "(876) 898-8521", "marky@gmail.com");
 
-<<<<<<< HEAD
 list();
-=======
-list("Mark");
+
 
 
 
@@ -110,4 +103,4 @@ cashRegister.scan('magazine',3);
 cashRegister.applyStaffDiscount(me);
 // Show the total bill
 console.log('Your bill is '+ cashRegister.total.toFixed(2));
->>>>>>> c5fd23caae098ecc6191a03fca97c2d24306f975
+
